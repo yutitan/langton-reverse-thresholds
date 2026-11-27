@@ -71,6 +71,6 @@ leaves 1 390 75985 10246877。要生成 413,982 条清单：
 
 ## 6. 完整工件
 
-release v1.0.0 的资产 langton_reverse_thresholds_verification.zip 是交付时的完整验证包，
+release v1.0.0 的资产 langton_reverse_thresholds_verification.zip（https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0）是交付时的完整验证包，
 包含全部 Lean 源码、C++/Python 程序、413,982 条首读清单及逐条结果、
 SHA256SUMS.txt 与 REPRODUCE.txt。

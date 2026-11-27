@@ -58,9 +58,9 @@
 * 未解决的公开问题：三格能否倒放一个完整周期；M_104、M_208 的精确值；
   D(3) 的有限性。
 
-## Zenodo
+## Release and Zenodo
 
-release v1.0.0（2026-11-27）。Zenodo 归档后在此补版本 DOI 与记录链接；
+GitHub release: https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0 （2026-11-27，资产 langton_reverse_thresholds_verification.zip）。Zenodo 归档后在此补版本 DOI 与记录链接；
 DOI 只指向归档快照，之后的提交不属于该版本。
 
 ## Hashes
@@ -81,4 +81,4 @@ DOI 只指向归档快照，之后的提交不属于该版本。
     lean/AntGlobal.lean                                  435f1dc468b9fe6fdadfc74fa95ae605fce7c7561b9afcced5d4379e2b37d018
     data/ant_ray_thresholds.txt                          3e165bea0724141e8cbee043f6317e5d9945c1ca9218f40aa3ec974b6e681945
     data/ant_gate_horizon.txt                            129d8db9f1cdecf3f56d2fd0d4f73f07be5efef29dff1b8da21c6e30e5d4811f
-    artifacts/langton_reverse_thresholds_verification.zip 910ca08c5636cf916e2a1b9af826ab7e678e539e64844dc0c9db35d486622227
+    release asset langton_reverse_thresholds_verification.zip  910ca08c5636cf916e2a1b9af826ab7e678e539e64844dc0c9db35d486622227

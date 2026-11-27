@@ -2,7 +2,7 @@
 
 本目录保存本记录用到的主要数据表与运行日志。完整原始工件（含 413,982 条
 首读清单与逐条跟踪结果，约 30 MB 解压）在
-release v1.0.0 的资产 langton_reverse_thresholds_verification.zip 中。
+release v1.0.0 的资产 langton_reverse_thresholds_verification.zip 中（https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0）。
 
 ## 射线与全平面
 

@@ -39,7 +39,7 @@ imfinn/langton-two-black 的固定提交 95e896e3035e992e48ce9d28a5ded8568c86e83
 注意：AntFinite 的有限证书较大（约 14 分钟）；AntSharpWords 约 3 秒、
 AntSharpInduction 约 4 秒、AntSharpBase 约 2 秒、AntSharp 约 50 秒、
 AntGateWitness 约 5 秒（在一台 4 核机器上实测）。上游源码与 .lake 不在本
-仓库内；也可以直接用 release 资产里的验证包，其中包含全部 Ant*.lean 与数据。
+仓库内；也可以直接用 release 资产里的验证包（https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0），其中包含全部 Ant*.lean 与数据。
 
 ## 公理与信任边界
 
