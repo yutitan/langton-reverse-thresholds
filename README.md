@@ -6,6 +6,8 @@
 · **Derived with:** GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra),
 independently verified with DeepSeek Harness — see [Provenance](#provenance)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24583889.svg)](https://doi.org/10.5281/zenodo.24583889) · **Archived release:** v1.0.0 (2026-11-27)
+
 > 本仓库是“大模型的小练习”系列的第四篇，是一份个人 AI 使用记录，不是论文，
 > 不作优先权主张。系列第一篇：
 > [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)
@@ -129,13 +131,16 @@ D(3) ≥ 285,176（有限性未判定）是不同命题。
 
 ## Citation
 
-见 [CITATION.cff](CITATION.cff)。发布记录：v1.0.0（2026-11-27）；
-Zenodo 归档完成后会在本行与 CITATION.cff 中补 DOI。
+见 [CITATION.cff](CITATION.cff)。发布记录：v1.0.0（2026-11-27），Zenodo
+归档 DOI [10.5281/zenodo.24583889](https://doi.org/10.5281/zenodo.24583889)
+（概念 DOI [10.5281/zenodo.24583888](https://doi.org/10.5281/zenodo.24583888)）；
+DOI 只指向归档快照，之后的提交不属于该版本。
 
     @software{yutitan_llm_exercises_iv,
       author  = {yutitan},
       title   = {大模型的小练习（四）：朗顿蚂蚁的倒放门槛},
       year    = {2026},
+      doi     = {10.5281/zenodo.24583889},
       note    = {Series: 大模型的小练习 (LLM Exercises IV); derived with GPT 6.2 Astra,
                  independently verified with DeepSeek Harness},
       url     = {https://github.com/yutitan/langton-reverse-thresholds}

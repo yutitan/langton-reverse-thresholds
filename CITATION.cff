@@ -3,6 +3,7 @@ message: "If you use this material, please cite it as below."
 type: software
 title: "大模型的小练习（四）：朗顿蚂蚁的倒放门槛"
 version: "1.0.0"
+doi: "10.5281/zenodo.24583889"
 date-released: "2026-11-27"
 authors:
   - name: "yutitan"
@@ -34,7 +35,9 @@ keywords:
   - AI-assisted exploration
 license: MIT
 notes: >-
-  Series: 大模型的小练习（四） (LLM Exercises IV); previous entries are
+  Archived at Zenodo under DOI 10.5281/zenodo.24583889 (concept DOI
+  10.5281/zenodo.24583888; release v1.0.0). Series: 大模型的小练习（四）
+  (LLM Exercises IV); previous entries are
   https://github.com/yutitan/wowii-conjecture-138 (DOI 10.5281/zenodo.24540807),
   https://github.com/yutitan/langton-ant-three-rows (DOI 10.5281/zenodo.24540968)
   and https://github.com/yutitan/langton-ant-square-bound (DOI 10.5281/zenodo.24541703).

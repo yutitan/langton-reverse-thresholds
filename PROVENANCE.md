@@ -24,6 +24,7 @@
 | 15:39–16:00 | 三格定向搜索（horizon、gate、graft、first-read）、14 格见证、稿件与验证包 | data/、工件包 |
 | 16:04–16:58 | DeepSeek Harness 独立复核：自写模拟器重算见证、重跑搜索、从源码重建 Lean、修正稿件非数学表述并组装仓库 | verify/REPORT.md |
 | 17:00 前后 | GitHub 发布 release v1.0.0 | 本仓库 release |
+| 17:48 | Zenodo 归档 release v1.0.0：DOI 10.5281/zenodo.24583889 | zenodo.org/records/24583889 |
 
 该 Codex 线程（UUID 01a212d0-4743-7213-8b9e-22a59d508eac）在 2026-11-26 23:29
 曾因用量上限中断，2026-11-27 04:02 由 lead 按用户指示恢复；本记录使用
@@ -60,12 +61,12 @@
 
 ## Release and Zenodo
 
-GitHub release: https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0 （2026-11-27，资产 langton_reverse_thresholds_verification.zip）。Zenodo 归档后在此补版本 DOI 与记录链接；
+GitHub release: https://github.com/yutitan/langton-reverse-thresholds/releases/tag/v1.0.0 （2026-11-27，资产 langton_reverse_thresholds_verification.zip）。Zenodo 已归档该 release：记录 https://zenodo.org/records/24583889 ，版本 DOI 10.5281/zenodo.24583889（概念 DOI 10.5281/zenodo.24583888）。
 DOI 只指向归档快照，之后的提交不属于该版本。
 
 ## Hashes
 
-    README.md                                            26da7ed6d96b894243438debf72de79e62ca3ad4fbb19a08f1e43c3365fa289a
+    README.md                                            7ae53692a2fcac010166c2db154b592d832f715530acc519fd8b4d76c660b670
     note/note.md                                         517210177b252708b8e7600ff10445a84482a57ada1f2342a8ac2ed5297cccb5
     note/note.html                                       05574b0c314e0b7ab4fd69997404cb148fa3bab4fc6b455bb05ed29d3bb2ba24
     note/note.pdf                                        7d4cfca898b741c5f580032a1d83362144b7ba177fb5c49fdd2e07822b5ef89c
