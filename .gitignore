@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+verify/__pycache__/
+lean/.lake/
+lean/*.olean

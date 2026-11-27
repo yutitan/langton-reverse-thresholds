@@ -1,0 +1,1 @@
+anchors 286 checkpoints 344 nodes 1434003664 actions 3454746560 best 20

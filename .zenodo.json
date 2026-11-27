@@ -1,0 +1,23 @@
+{
+ "title": "大模型的小练习（四）：朗顿蚂蚁的倒放门槛",
+ "description": "<p><strong>大模型的小练习（四）</strong>：朗顿蚂蚁的倒放门槛。允许蚂蚁先自由运行，问多少初始黑格才能让它连续走出一段倒放高速公路转向词。把标准 104 步正向词 H 逆序并交换左右得到 V。本记录给出：倒放阶梯 L<sub>0</sub>=32、L<sub>1</sub>=58、L<sub>2</sub>=87、L<sub>3</sub>≥88（0/1 格为全时间全位置 Lean 精确值；2 格 87 的见证有 Lean 证明，全局上界依赖上游两格覆盖定理加外部穷举，未形式化）；22 条单黑格射线上深度可分辨的精确阈值 A<sub>j</sub>+104k+1（A<sub>j</sub>∈[4978,5082]，最后组合归纳已整体通过 Lean）；一条 14 格见证在走完 2,453 步标准正向词后倒放 119 步，保留前奏时 12K+2 个初始黑格可倒放 K 个周期；三格完整周期的两个必要条件（完成时刻晚于第 2,000 步；至少一格在头 500 步内未被读到）；有界前奏的精确值 12K+6 与 13；立即倒放 104 步恰需 23 格；供应不等式 6K ≤ m+u+9n+15h+12 与 9K ≤ m+u+7n+14h+15。三格能否倒放完整周期仍开放；M<sub>104</sub>∈[3,12]、M<sub>208</sub>∈[3,20]；D(3)≥285,176，有限性未判定。仓库包含 Lean 4.30 形式化、C++/Python 检查器、数据表与独立复核报告。</p><p>English: Reverse-play thresholds for Langton's ant: how many initial black cells are needed so that the ant walks a reversed copy of the standard 104-step highway turn word. We record the exact ladder L_0=32, L_1=58, L_2=87, L_3&gt;=88 (single-cell full-plane Lean theorem; the two-cell upper bound uses an external enumeration over the upstream two-black reduction), exact depth-distinguishability thresholds A_j+104k+1 on the 22 single-cell rays (A_j in [4,978, 5,082]; final composition induction in Lean), a 14-cell witness (2,453 forward turns, then 119 reverse turns), the family 12K+2 cells for K reverse periods, two necessary conditions for a three-cell complete period, bounded-preamble values 12K+6 and 13, the immediate-104 threshold 23, and the supply inequalities 6K &lt;= m+u+9n+15h+12, 9K &lt;= m+u+7n+14h+15. Whether three cells can reverse one full period remains open; M_104 in [3,12], M_208 in [3,20], D(3)&gt;=285,176 with finiteness open.</p><p>This repository is a public record of a personal AI-assisted exploration and makes no priority claim. Derived with GPT 6.2 Astra (OpenAI Codex) and independently verified with DeepSeek Harness; see PROVENANCE.md. Depends on https://github.com/imfinn/langton-two-black at commit 95e896e3035e992e48ce9d28a5ded8568c86e835 and on H. Ke's one-black-cell theorem. Series entry (一): https://github.com/yutitan/wowii-conjecture-138 ; (二): https://github.com/yutitan/langton-ant-three-rows ; (三): https://github.com/yutitan/langton-ant-square-bound</p>",
+ "creators": [
+  {
+   "name": "yutitan"
+  }
+ ],
+ "keywords": [
+  "Langton's ant",
+  "Langton 蚂蚁",
+  "cellular automata",
+  "倒放",
+  "reverse play",
+  "computer-assisted proof",
+  "Lean 4",
+  "AI-assisted exploration"
+ ],
+ "license": "MIT",
+ "upload_type": "software",
+ "access_right": "open",
+ "language": "zho"
+}

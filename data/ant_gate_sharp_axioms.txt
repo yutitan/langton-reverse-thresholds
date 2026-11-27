@@ -1,0 +1,6 @@
+'AntSharp.threshold_table' depends on axioms: [propext, Quot.sound, threshold_table._native.native_decide.ax_1_1]
+'AntSharp.ray_threshold_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ rays_checked._native.native_decide.ax_1_1,
+ level1_checks._native.native_decide.ax_1_1]

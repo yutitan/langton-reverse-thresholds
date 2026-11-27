@@ -1,0 +1,81 @@
+== 1/7 88-step and 11-cell diagnosis ==
+3 initial, start 214688 phase 90 first-read sites 41 wrong 6
+  88 (-48, -32) black 38 17152 177676
+  92 (-48, -30) black 34 11712 179132
+  93 (-49, -30) white 37 11713 145153
+  94 (-49, -29) white 31 11702 177714
+  97 (-49, -28) black 32 11701 177713
+  102 (-49, -31) black 38 11834 177678
+seed contacts [(12430, (-63, -43)), (32168, (-86, -46)), (183600, (-22, -14))]
+11 initial, start 221 phase 77 first-read sites 38 wrong 1
+  101 (-7, -5) black 0 None None
+seed contacts [(2, (1, -1)), (94, (-3, -1)), (95, (-4, -1)), (159, (-6, -3)), (167, (-6, -5)), (169, (-7, -6)), (176, (-6, -8)), (184, (-4, -8))]
+12 initial, start 221 phase 77 first-read sites 38 wrong 0
+seed contacts [(2, (1, -1)), (94, (-3, -1)), (95, (-4, -1)), (159, (-6, -3)), (167, (-6, -5)), (169, (-7, -6)), (176, (-6, -8)), (184, (-4, -8))]
+2 initial, start 14770 phase 92 first-read sites 40 wrong 3
+  87 (33, -22) black 2 14289 14769
+  95 (35, -26) black 0 None None
+  100 (35, -23) black 0 None None
+seed contacts [(5264, (24, -14)), (7505, (-11, 6))]
+
+== 2/7 14-cell ordered witness and the 12K+2 family ==
+14-cell ordered witness [(-86, -46), (-63, -43), (-36, 0), (-36, 3), (-35, -1), (-35, 0), (-35, 1), (-34, 2), (-34, 3), (-33, 0), (-33, 3), (-32, 2), (-31, 1), (-31, 2)]
+K 1 initial cells 14
+K 2 initial cells 26
+K 3 initial cells 38
+K 4 initial cells 50
+K 5 initial cells 62
+K 10 initial cells 122
+K 40 initial cells 482
+H starts 9977, length 2453; V starts 174341, phase 89; K=1 matches 119 steps
+last possible prep-block intersection before index 4 class count 22 newly required black per block 12
+
+== 3/7 bounded preparation minima (12K+6) ==
+104 phases, block indices >=10 miss the entire 30-step preparation square
+22 lanes, width <=3, exactly 12 new initial black cells per period for K>=10
+exhausted K=1..11: minimum with <=30 preparatory steps is 12*K+6, for all K>=1 by induction
+
+== 4/7 supply constants ==
+demand, width, parallel supply, perpendicular supply, target end loss: (6, 4, 9, 15, 12)
+demand, width, parallel supply, perpendicular supply, target end loss: (9, 4, 7, 14, 15)
+
+== 5/7 20-cell / 12K-5 construction ==
+20-cell witness + 209 preparation steps + 208 inverse turns; 63 -> 39 black
+fixed 218-step preparation, 12*K-5 initial cells for every K>=3
+
+== 6/7 independent checks (self-contained, does not import the above) ==
+PASS blank 32 at (1041, phase 4)
+PASS one cell 58 at (29393, phase 6)
+PASS 14-cell forward 2453 from 9977
+PASS 14-cell forward diverges at 2454
+PASS 14-cell reverse 119 at 174341 phase 89
+PASS 14-cell reverse fails at 120
+PASS target drift is (-2,2)  (-2, 2)
+PASS construction K=1 gives the listed 14 cells
+PASS construction sizes 14/26/38  [14, 26, 38]
+PASS K=2 reproduces the 174,341-step preamble
+PASS K=2 matches at least 208 reverse steps
+PASS K=3 matches at least 312 reverse steps
+PASS 88 witness reads 41 distinct target cells  41
+PASS 88 witness has exactly the six listed mismatches  [(88, (-48, -32), True, 38, 177676), (92, (-48, -30), True, 34, 179132), (93, (-49, -30), False, 37, 145153), (94, (-49, -29), False, 31, 177714), (97, (-49, -28), True, 32, 177713), (102, (-49, -31), True, 38, 177678)]
+PASS 3-cell 88 witness matches 88 (phase 90)
+PASS 3-cell 88 witness fails at 89
+PASS 11-cell witness has 38 target cells  38
+PASS 11-cell single mismatch (-7,-5) never read  [(101, (-7, -5), True, 0, None)]
+PASS 11-cell matches 101 and fails 102
+PASS 12-cell (11 + (-7,-5)) matches 110
+PASS 12-cell fails at 111
+PASS two-cell 87 at (14770, phase 92)
+PASS two-cell fails at 88
+PASS horizon-2000 witness has max 78 ending at 1894  (78, 1816, 34)
+PASS horizon-500 witness has max 86 starting at 7897  (86, 7897, 92)
+PASS 86 witness: all three cells first read before 500  [301, 332, 343]
+PASS cases500 sample: 200 triples all read before 500  lines=200 bad=0
+PASS manifest line count is 413,982  cases500.in lines: 413982
+
+ALL INDEPENDENT CHECKS PASSED
+
+== 7/7 optional 22-ray table (set UPSTREAM to enable) ==
+skip: set UPSTREAM=/path/to/langton-two-black (commit 95e896e...) to check the 22-ray table
+
+ALL QUICK CHECKS PASSED

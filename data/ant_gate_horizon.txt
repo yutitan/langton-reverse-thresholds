@@ -1,0 +1,4 @@
+horizon 104 budget 3 maximum 33 end 98 witness 0 1 -1 -2 1 -2 leaves 1 38 842 12266
+horizon 400 budget 3 maximum 43 end 370 witness 3 -3 6 -2 8 1 leaves 1 112 6672 271357
+horizon 1000 budget 3 maximum 58 end 929 witness -3 -5 4 3 1 -5 leaves 1 217 24309 1940820
+horizon 2000 budget 3 maximum 78 end 1894 witness 3 5 -3 4 -7 4 leaves 1 390 75985 10246877

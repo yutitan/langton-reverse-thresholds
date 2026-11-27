@@ -1,0 +1,10 @@
+14-cell ordered witness [(-86, -46), (-63, -43), (-36, 0), (-36, 3), (-35, -1), (-35, 0), (-35, 1), (-34, 2), (-34, 3), (-33, 0), (-33, 3), (-32, 2), (-31, 1), (-31, 2)]
+K 1 initial cells 14
+K 2 initial cells 26
+K 3 initial cells 38
+K 4 initial cells 50
+K 5 initial cells 62
+K 10 initial cells 122
+K 40 initial cells 482
+H starts 9977, length 2453; V starts 174341, phase 89; K=1 matches 119 steps
+last possible prep-block intersection before index 4 class count 22 newly required black per block 12

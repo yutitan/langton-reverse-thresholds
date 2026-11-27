@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "大模型的小练习（四）：朗顿蚂蚁的倒放门槛"
+version: "1.0.0"
+date-released: "2026-11-27"
+authors:
+  - name: "yutitan"
+repository-code: "https://github.com/yutitan/langton-reverse-thresholds"
+url: "https://github.com/yutitan/langton-reverse-thresholds"
+abstract: >-
+  Reverse-play thresholds for Langton's ant: how many initial black cells are
+  needed so that the ant walks, contiguously, a reversed copy of the standard
+  104-step highway turn word. We record the exact ladder L_0=32, L_1=58,
+  L_2=87, L_3>=88 (the single-cell value is a full-plane Lean theorem; the
+  two-cell upper bound uses an external enumeration over the upstream
+  two-black-cell reduction), the exact depth-distinguishability thresholds
+  A_j + 104k + 1 on the 22 single-cell rays (A_j between 4,978 and 5,082;
+  the final composition induction is proved in Lean), a 14-cell witness that
+  walks 2,453 standard forward turns and then 119 reverse turns, the family
+  12K+2 initial cells reversing K periods for every K>=1, two necessary
+  conditions for a three-cell complete period, the bounded-preamble values
+  12K+6 and 13, and the supply inequalities 6K <= m+u+9n+15h+12 and
+  9K <= m+u+7n+14h+15. Whether three cells can reverse one complete period
+  remains open; M_104 is in [3,12], M_208 is in [3,20], and D(3)>=285,176
+  with finiteness open. The repository contains the Lean 4.30 formalization,
+  C++/Python checkers, data tables and an independent verification report.
+keywords:
+  - Langton's ant
+  - cellular automata
+  - reverse play
+  - computer-assisted proof
+  - Lean 4
+  - AI-assisted exploration
+license: MIT
+notes: >-
+  Series: 大模型的小练习（四） (LLM Exercises IV); previous entries are
+  https://github.com/yutitan/wowii-conjecture-138 (DOI 10.5281/zenodo.24540807),
+  https://github.com/yutitan/langton-ant-three-rows (DOI 10.5281/zenodo.24540968)
+  and https://github.com/yutitan/langton-ant-square-bound (DOI 10.5281/zenodo.24541703).
+  Derived with GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra) on 2026-11-27 and
+  independently verified with DeepSeek Harness; see PROVENANCE.md. This is a
+  public record of a personal AI-assisted exploration and makes no priority
+  claim. Depends on the fixed upstream project
+  https://github.com/imfinn/langton-two-black at commit
+  95e896e3035e992e48ce9d28a5ded8568c86e835 and on H. Ke's one-black-cell
+   theorem (https://www.kehao.me/papers/langtons-ant-one-black/).

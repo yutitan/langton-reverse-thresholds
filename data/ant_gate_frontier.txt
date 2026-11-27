@@ -1,0 +1,3 @@
+all 413982 terminal trajectories; full inverse cycles 0
+largest inverse 86 start 7897 phase 92 seed [(2, 4), (5, 4), (6, 3)] first contacts [((2, 4), 332), ((5, 4), 301), ((6, 3), 343)]
+maximum anomalies (88098, (4, -3, 5, 2, -5, 5))
